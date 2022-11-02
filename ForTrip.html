@@ -6,13 +6,34 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="stylesheet" href="ForTrip(style).css">
      <link rel="shortcut icon" type="image/png" href="icons/airplane-takeoff.png">
-     <title>The most\/beautiful places in the world!</title>
+     <title>\/TriParadise\/</title>
 
      <link rel="stylesheet" href="icons/svg/_ICONFONT/styles.css">
 
-     <script defer src="ForTrip-scripts.js"></script>
     </head>
     <body>
+
+    <div class="navigation">
+        <input type="checkbox" id="nav-btn"  class="navigation__checkbox">
+
+        <label for="nav-btn" class="navigation__btn">
+           <span class="navigation__icon"></span>          
+        </label>
+
+        <div class="navigation__background"></div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__nav-items">
+               <li class="navigation-list"><a href="#" class="navigation-link">About \/TriParadise\/</a></li>
+               <li class="navigation-list"><a href="#" class="navigation-link">All stories</a></li>
+               <li class="navigation-list"><a href="#" class="navigation-link">Tours</a></li>
+               <li class="navigation-list"><a href="#" class="navigation-link">Accaunt</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
      <header class="header">
          <div class="logo-box">
            <img  src="icons/globe.png" alt="Logo" class="logo">
@@ -26,7 +47,7 @@
                 <span class="header-text-bottom">undoubtedly has beautiful places</span>
                 </h1>
 
-                <a id="boxBtn" href="#" class="btn btn-white btn-animated">Explore</a>
+                <a id="boxBtn" href="#section--corner" class="btn btn-white btn-animated">Explore</a>
         </div>
 
 
@@ -166,7 +187,7 @@
   </div>
     </section>
 
-    <section class="section-corner">
+    <section class="section-corner" id="section--corner">
       <div class="u-center-text u-margin-bottom">
         <h2 class="corner__main">
           Choose a suitable corner for yourself
@@ -198,7 +219,7 @@
 
                      <h2 class="card__side-title">"Places that are closer to the stars!"</h2>
 
-                    <button class="card__side-btn">Discover</button>
+                    <a href="#popup--1" class="card__side-btn">Discover</a>
                   </div>
               </div>
             </div>
@@ -228,7 +249,7 @@
 
                   <h2 class="card__side-title">"Places that will awaken your inner beast!"</h2>
 
-                  <button class="card__side-btn">Discover</button>
+                  <a href="#popup--2" class="card__side-btn">Discover</a>
                 </div>
               </div>
             </div>
@@ -258,7 +279,7 @@
 
                   <h2 class="card__side-title">"Places that show the depth of the world's waters!"</h2>
 
-                  <button class="card__side-btn">Discover</button>
+                  <a href="#popup--3" class="card__side-btn">Discover</a>
                 </div>
               </div>
             </div>
@@ -336,8 +357,166 @@
 
     </section>
 
+    <section class="section-registration">
+        <div class="section-registration__block">
+            <div class="registration-box">
+                <div class="registration-box__container">
+                    <div class="u-reg-text u-margin-bottom">
+                        <h2 class="registration-text--main">
+                          start creating your memories!
+                        </h2>
+                    </div>
+
+                    <form action="/" method="post">
+                         <div class="forms-container">
+                             <input type="text" name="Name" required placeholder="Full Name" class="forms-container__content" id="name">
+                             <label for="name" class="form-label">Full Name</label>
+                             <input type="email" name="Email" required placeholder="Email" class="forms-container__content" id="email">
+                             <label for="email" class="form-label">Email</label>
+                         </div>
+                    </form>
+
+
+                    <button class="submit-btn">
+                        submit
+                    </button>
+                 </div>
+            </div>
+        </div>
+    </section>
 
   </main>
+
+
+  <footer class="footer">
+      <div class="footer__block">
+           <span class="footer-icon">
+                <img src="icons/airplane-takeoff2.png" alt="footicon" class="icon">
+                <h2 class="footer-icon__text">\/TriParadise\/</h2>
+           </span>
+
+
+           <div class="u-footer-panels-position">
+             <div class="footer-panel panel--1">
+                 <h1 class="footer-panel__text text-hover--1">Our team</h1>
+                 <h1 class="footer-panel__text text-hover--2">Contact Us</h1>
+                 <h1 class="footer-panel__text text-hover--3">Privacy</h1>
+                 <h1 class="footer-panel__text text-hover--4">Terms</h1>
+             </div>
+
+             <div class="footer-panel2 panel--1">
+              <h1 class="footer-panel2__text text-hover--5">Created by:<a target="_blank" class="footer-link" href="https://github.com/Dslayer33">Dslayer33</a></h1>
+              <h1 class="footer-panel2__text text-hover--6">Icons by:<a target="_blank" class="footer-link" href="https://phosphoricons.com">phosphoricons</a></h1>
+             </div>
+
+           </div>
+      </div>
+  </footer>
+
+
+   <div class="popup" id="popup--1">
+      <div class="u-content-center">
+         <div class="popup__content">
+
+          <div class="popup__content-left">
+
+            <div class="u-img-box">
+              
+              <img src="img/benjamin-voros-phIFdC6lA4E-unsplash.jpg"  alt="popimg" class="popup__content-left--img">
+            </div>
+
+            <div class="u-img-box">
+             
+              <img src="img/claudio-schwarz-AHw0W1akIXk-unsplash.jpg" alt="popimg" class="popup__content-left--img">
+            </div>
+              
+          
+          </div>
+
+          <div class="popup__content-right">
+             <h1 class="popup__content-right--title">Start your exploring here!</h1>
+             <h2 class="popup__content-right--preference">the best tours for adventure lovers</h2>
+             <p class="popup__content-right--paragraph">The best opportunity to plunge into an adventure full of adrenaline and extreme, suitable for those who are looking for difficulties and love challenges,and that's not all.Conquer peaks, overcome forests and thickets, swim across seas, make new friends and travel with them. Challenge nature and overcome adversity with us!</p>
+
+             <button class="popup__content-right--btn">Start</button>
+          </div>
+
+
+           <a href="#section--corner" class="popup-close">&times;</a>
+         </div>
+      </div>
+
+   </div>
+
+
+   <div class="popup" id="popup--2">
+    <div class="u-content-center">
+       <div class="popup__content">
+
+        <div class="popup__content-left">
+
+          <div class="u-img-box">
+            
+            <img src="img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg"  alt="popimg" class="popup__content-left--img">
+          </div>
+
+          <div class="u-img-box">
+           
+            <img src="img/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg" alt="popimg" class="popup__content-left--img">
+          </div>
+            
+        
+        </div>
+
+        <div class="popup__content-right">
+           <h1 class="popup__content-right--title">Start your exploring here!</h1>
+           <h2 class="popup__content-right--preference">the best tours for adventure lovers</h2>
+           <p class="popup__content-right--paragraph">The best opportunity to plunge into an adventure full of adrenaline and extreme, suitable for those who are looking for difficulties and love challenges,and that's not all.Conquer peaks, overcome forests and thickets, swim across seas, make new friends and travel with them. Challenge nature and overcome adversity with us!</p>
+
+           <button class="popup__content-right--btn">Start</button>
+        </div>
+
+
+         <a href="#section--corner" class="popup-close">&times;</a>
+       </div>
+    </div>
+
+ </div>
+
+
+ <div class="popup" id="popup--3">
+  <div class="u-content-center">
+     <div class="popup__content">
+
+      <div class="popup__content-left">
+
+        <div class="u-img-box">
+          
+          <img src="img/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg"  alt="popimg" class="popup__content-left--img">
+        </div>
+
+        <div class="u-img-box">
+         
+          <img src="img/tom-winckels-I7oLRdM9YIw-unsplash.jpg" alt="popimg" class="popup__content-left--img">
+        </div>
+          
+      
+      </div>
+
+      <div class="popup__content-right">
+         <h1 class="popup__content-right--title">Start your exploring here!</h1>
+         <h2 class="popup__content-right--preference">the best tours for adventure lovers</h2>
+         <p class="popup__content-right--paragraph">The best opportunity to plunge into an adventure full of adrenaline and extreme, suitable for those who are looking for difficulties and love challenges,and that's not all.Conquer peaks, overcome forests and thickets, swim across seas, make new friends and travel with them. Challenge nature and overcome adversity with us!</p>
+
+         <button class="popup__content-right--btn">Start</button>
+      </div>
+
+
+       <a href="#section--corner" class="popup-close">&times;</a>
+     </div>
+  </div>
+
+</div>
 
   <!--
     LINKS
@@ -356,6 +535,11 @@
     'Video'
     1)I got this free video on Coverr.co https://coverr.co/videos/igloo-tents-near-the-mountains-lSf2x8UKIP?utm_source=coverr&utm_medium=referral&utm_content=creditShareLink
 
+
+    'Popup'
+    1)Photo by <a href="https://unsplash.com/@sebastian_unrau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Unrau</a> on <a href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    2) Photo by <a href="https://unsplash.com/@twinckels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Winckels</a> on <a href="https://unsplash.com/s/photos/sea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
    -->
     </body>
 </html>
