@@ -1,0 +1,36 @@
+/*@mixin small-screen  {
+    @media screen and (max-width:250px) { 
+        @content;
+    };
+}*/
+/*@media screen and (max-width:250px) {
+    html {
+        //font-size: 62.5%;
+        font-size: 70%;
+    }
+
+    .header {
+       clip-path: none;
+
+       .logo  {
+        height: 4rem;
+       }
+    }
+
+
+    .footer-panel {
+        display: none;
+
+        &__text {
+            display: none;
+        }
+    }
+
+    .footer-panel2 {
+        display: none;
+
+        &__text {
+            display: none;
+        }
+    }
+}*/

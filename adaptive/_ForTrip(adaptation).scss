@@ -1,0 +1,117 @@
+
+@mixin very-small-screen  {
+    @media screen and (max-width:250px) { @content};
+}
+
+
+@mixin breakpoint1  {
+    @media screen  and (max-width:350px) { @content };
+}
+
+@mixin breakpoint2  {
+    @media screen  and (max-width:315px) { @content };
+}
+
+@mixin breakpoint3  {
+    @media screen  and (max-width:280px) { @content };
+}
+
+@mixin breakpoint4  {
+    @media screen  and (max-width:300px) { @content };
+}
+
+@mixin breakpoint12  {
+    @media screen and (max-width:400px) { @content } ;
+}
+
+@mixin small-screen  {
+    @media screen and (max-width:500px) { @content } ;
+}
+
+@mixin breakpoint11  {
+    @media screen and (max-width:600px) { @content } ;
+}
+
+@mixin breakpoint7  {
+    @media screen and (max-width:650px) { @content };
+}
+
+
+@mixin breakpoint6  {
+    @media screen and (max-width:700px) { @content };
+}
+
+@mixin breakpoint10  {
+    @media screen and (max-width:800px) { @content };
+}
+
+
+@mixin breakpoint9  {
+    @media screen and (max-width:900px) { @content };
+}
+
+
+@mixin medium-screen  {
+    @media screen and (max-width:1000px) { @content };
+}
+
+
+@mixin breakpoint5  {
+    @media screen and (max-width:1040px) { @content };
+}
+
+@mixin breakpoint8  {
+    @media screen and (max-width:1150px) { @content };
+}
+
+@mixin big-screen  {
+    @media screen and (max-width:1500px) { @content };
+}
+
+@mixin very-big-screen  {
+    @media screen and (min-width:1501px) { @content };
+}
+
+
+
+@mixin clip-size1  {
+    @media screen and (min-height:700px) { @content };
+}
+
+@mixin clip-size2  {
+    @media screen and (max-height:500px) { @content };
+}
+
+@mixin clip-size3  {
+    @media screen and (min-height:800px) { @content };
+}
+/*@media screen and (max-width:250px) {
+    .header-text #header-text--main{
+        font-size: 4rem;
+        letter-spacing: 1rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .header-text #header-text--main  {
+        font-size: 4.5rem;
+        letter-spacing: 1.5rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+     .header-text #header-text--main .header-text-main  {
+        font-size: 5rem;
+        letter-spacing: 2rem;
+    }
+}*/
+
+/*@media screen and (max-width:1500px) {
+    .header {
+        background-image: linear-gradient(to right bottom ,$body-color1, $body-color2, $body-color3) , url(../NavigationForTrip/img/claudio-schwarz-AHw0W1akIXk-unsplash--small.jpg);
+     }
+
+     .section-features {
+        background-image: linear-gradient(to right bottom ,$body-color1, $body-color2, $body-color3) , url(../NavigationForTrip/img/claudio-schwarz-AHw0W1akIXk-unsplash--small.jpg);
+     }
+}*/

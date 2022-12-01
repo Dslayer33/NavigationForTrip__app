@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
     <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,8 @@
      <title>\/TriParadise\/</title>
 
      <link rel="stylesheet" href="icons/svg/_ICONFONT/styles.css">
+
+     <link rel="stylesheet"  type="text/css"   href="adaptive/_ForTrip(adaptation).css">
 
     </head>
     <body>
@@ -24,7 +26,7 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__nav-items">
-               <li class="navigation-list"><a href="#" class="navigation-link">About \/TriParadise\/</a></li>
+               <li class="navigation-list"><a href="#popup--about" class="navigation-link">About \/TriParadise\/</a></li>
                <li class="navigation-list"><a href="#" class="navigation-link">All stories</a></li>
                <li class="navigation-list"><a href="#" class="navigation-link">Tours</a></li>
                <li class="navigation-list"><a href="#" class="navigation-link">Accaunt</a></li>
@@ -34,64 +36,26 @@
     </div>
 
 
-     <header class="header">
+     <header class="header" id="hdr">
          <div class="logo-box">
-           <img  src="icons/globe.png" alt="Logo" class="logo">
+             
+
+             <img  src="icons/globe.png" alt="Logo"  class="logo">
+    
          </div>
 
 
 
         <div class="box">
             <h1 class="header-text">
-                <span class="header-text-main">World</span>
-                <span class="header-text-bottom">undoubtedly has beautiful places</span>
+                <span class="header-text-main" id="header-text--main">World</span>
+                <span class="header-text-bottom" id="header-text--bottom">undoubtedly has beautiful places</span>
                 </h1>
 
                 <a id="boxBtn" href="#section--corner" class="btn btn-white btn-animated">Explore</a>
         </div>
-
-
-        <!--<span class="u-static-menu">
-          <img src="icons/list.png" class="menu-btn">
-        </span>-->
      </header>
-<!--
-     <div class="object1">
-       <div class="block1">
-        Some text1
-       </div>
-       <div class="block2">
-        Some text2
-       </div>
-     </div>
 
-    <div class="object2">
-      <div class="block3">
-        Some text1
-       </div>
-       <div class="block4">
-        Some text2
-       </div>
-       <div class="block5">
-        Some text3
-       </div>
-    </div>
-
-    <div class="object3">
-      <div class="block6">
-        Some text1
-       </div>
-       <div class="block7">
-        Some text2
-       </div>
-       <div class="block8">
-        Some text3
-       </div>
-       <div class="block9">
-        Some text4
-       </div>
-    </div>
-  -->
 
   <main>
     <section class="section-about">
@@ -130,6 +94,33 @@
       </div>
 
       
+      <div class="section-shadow__content">
+        <div class="section-shadow__block1">
+         <h3 class="block1-shadow__maintext u__marginbottom--small">Adventures await!</h3>
+
+         <p class="paragraph-shadow">
+          Unique places that will make anyone fall in love with themselves.
+         </p>
+
+         <h3 class="block1-shadow__maintext u__marginbottom--small">Incredible memories</h3>
+
+         <p class="paragraph-shadow">
+          Memories and feelings that you want to share with all your friends and family.
+         </p>
+
+         <a href="#" class="btn__link-shadow">Learn more &rarr;</a>
+        </div>
+
+
+        <div class="section-shadow__block2">
+         <div class="block2-shadow__composition">
+          <img src="img/23_59c3c2e868a84654118af91efc201229.jpg" alt="photo1" class="composition__photo-shadow composition__photo--p1">
+          <img src="img/23_ad15d4faee4b1bf26642fd05aaf49432.jpg" alt="photo2" class="composition__photo-shadow composition__photo--p2">
+          <img src="img/23_b8364b83b23042a27ccc616ab2ea502f.jpg" alt="photo3" class="composition__photo-shadow composition__photo--p3">
+         </div>
+        </div>
+      </div>
+
     </section>
 
 
@@ -139,7 +130,7 @@
                <div class="features-box">
                  <i class="features-box__icon icon-basic-globe"></i>
                  <h3 class="features-box__title">Choose your next adventure</h3>
-                 <p class=features-box__text">
+                 <p class="features-box__text">
                    Its your chance to explore most beautiful places in the world,dont miss it!
                  </p>
                </div>
@@ -152,7 +143,7 @@
             <div class="features-box2">
               <i class="features-box2__icon icon-basic-calendar"></i>
               <h3 class="features-box2__title">Plan your way</h3>
-              <p class=features-box2__text">
+              <p class="features-box2__text">
                Choose for yourself best time for your adventure,take your time!
               </p>
             </div>
@@ -165,7 +156,7 @@
           <div class="features-box3">
             <i class="features-box3__icon icon-basic-photo"></i>
             <h3 class="features-box3__title">Remember everything</h3>
-            <p class=features-box3__text">
+            <p class="features-box3__text">
               Take a photos for best moments of your trip,enjoy your time!
             </p>
           </div>
@@ -178,13 +169,66 @@
         <div class="features-box4">
           <i class="features-box4__icon icon-basic-share"></i>
           <h3 class="features-box4__title">Share your feelings and emotions</h3>
-          <p class=features-box4__text">
+          <p class="features-box4__text">
             Emotions and memories are some of the best things in life, share them with friends and family, be happy!
           </p>
         </div>
     </div>
 
   </div>
+
+
+  <div class="features__columns-shadow">
+    <div class="columns__content-shadow">
+        <div class="features-box">
+          <i class="features-box__icon icon-basic-globe"></i>
+          <h3 class="features-box__title">Choose your next adventure</h3>
+          <p class="features-box__text">
+            Its your chance to explore most beautiful places in the world,dont miss it!
+          </p>
+        </div>
+    </div>
+
+
+
+
+ <div class="columns__content-shadow">
+     <div class="features-box2">
+       <i class="features-box2__icon icon-basic-calendar"></i>
+       <h3 class="features-box2__title">Plan your way</h3>
+       <p class="features-box2__text">
+        Choose for yourself best time for your adventure,take your time!
+       </p>
+     </div>
+ </div>
+
+
+
+
+<div class="columns__content-shadow">
+   <div class="features-box3">
+     <i class="features-box3__icon icon-basic-photo"></i>
+     <h3 class="features-box3__title">Remember everything</h3>
+     <p class="features-box3__text">
+       Take a photos for best moments of your trip,enjoy your time!
+     </p>
+   </div>
+</div>
+
+
+
+
+<div class="columns__content-shadow">
+ <div class="features-box4">
+   <i class="features-box4__icon icon-basic-share"></i>
+   <h3 class="features-box4__title">Share your feelings and emotions</h3>
+   <p class="features-box4__text">
+     Emotions and memories are some of the best things in life, share them with friends and family, be happy!
+   </p>
+ </div>
+</div>
+
+</div>
     </section>
 
     <section class="section-corner" id="section--corner">
@@ -284,6 +328,82 @@
               </div>
             </div>
         </div>
+
+
+    <div class="cornershadow-container">
+          <div class="cornershadow-block">
+            <div class="card-shadow">
+                <div class="card__side-shadow card__side--front">
+                  <div class="card__picture card__picture--1"></div>
+
+                  <h4 class="card__heading">
+                    "King of the mountain"
+                  </h4>
+
+                  <div class="card__details">
+                    <li class="details-list">
+                      <ul class="details-list__item">clean air</ul>
+                      <ul class="details-list__item">good view</ul>
+                      <ul class="details-list__item">safe road</ul>
+                      <ul class="details-list__item">pleasant company</ul>
+                    </li>
+                  </div>
+
+                  <a href="#popup--1" class="card__side-btn">Discover</a>
+
+                </div>
+            </div>
+          </div>
+
+          <div class="cornershadow-block">
+            <div class="card-shadow">
+              <div class="card__side-shadow card__side--front">
+                <div class="card__picture card__picture--2"></div>
+
+                <h4 class="card__heading">
+                  "Forest explorer"
+                </h4>
+
+                 <div class="card__details">
+                    <li class="details-list">
+                      <ul class="details-list__item">clean air</ul>
+                      <ul class="details-list__item">camping</ul>
+                      <ul class="details-list__item">campfire conversations</ul>
+                      <ul class="details-list__item">pleasant company</ul>
+                    </li>
+
+                  </div>
+
+                  <a href="#popup--2" class="card__side-btn">Discover</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="cornershadow-block">
+            <div class="card-shadow">
+              <div class="card__side-shadow card__side--front">
+                <div class="card__picture card__picture--3"></div>
+
+                <h4 class="card__heading">
+                  "The seeker of Atlantis"
+                </h4>
+
+                <div class="card__details">
+                  <li class="details-list">
+                    <ul class="details-list__item">clean air</ul>
+                    <ul class="details-list__item">beautiful landscapes</ul>
+                    <ul class="details-list__item">diving</ul>
+                    <ul class="details-list__item">pleasant company</ul>
+                  </li>
+                </div>
+
+                <a href="#popup--3" class="card__side-btn">Discover</a>
+
+              </div>
+            </div>
+          </div>
+      </div>
     </section>
 
     <section class="section-stories">
@@ -518,28 +638,25 @@
 
 </div>
 
-  <!--
-    LINKS
-    'Cards'
-    1)Photo by <a href="https://unsplash.com/@vorosbenisop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benjamin Voros</a> on <a href="https://unsplash.com/s/photos/mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    2)Photo by <a href="https://unsplash.com/@maritaextrabold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marita Kavelashvili</a> on <a href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    3)Photo by <a href="https://unsplash.com/@jbcreate_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joseph Barrientos</a> on <a href="https://unsplash.com/s/photos/sea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    
 
-    'Avatars'
-    1)Photo by <a href="https://unsplash.com/@wflwong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Warren Wong</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    2)Photo by <a href="https://unsplash.com/@timmarshall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Marshall</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    3)Photo by <a href="https://unsplash.com/@averieclaire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">averie woodard</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+   <div class="popup-about" id="popup--about">
+      <div class="popup-about__content">
+          <div class="content-block">
+             <h2 class="about-info">Created by:<a target="_blank" class="about-link" href="https://github.com/Dslayer33">Dslayer33</a></h2>
+             <h2 class="about-info">Icons by:<a  class="about-link" target="_blank"  href="https://phosphoricons.com">phosphoricons</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@vorosbenisop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benjamin Voros</a> on <a class="about-link" href="https://unsplash.com/s/photos/mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@maritaextrabold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marita Kavelashvili</a> on <a class="about-link" href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@jbcreate_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joseph Barrientos</a> on <a class="about-link" href="https://unsplash.com/s/photos/sea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@wflwong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Warren Wong</a> on <a class="about-link" href="https://unsplash.com/s/photos/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@timmarshall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Marshall</a> on <a class="about-link" href="https://unsplash.com/s/photos/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@averieclaire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">averie woodard</a> on <a class="about-link" href="https://unsplash.com/s/photos/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@sebastian_unrau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Unrau</a> on <a class="about-link" href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Photo by <a  class="about-link" href="https://unsplash.com/@twinckels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Winckels</a> on <a class="about-link" href="https://unsplash.com/s/photos/sea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h2>
+             <h2 class="about-info">Free video on <a  class="about-link" href="https://coverr.co/videos/igloo-tents-near-the-mountains-lSf2x8UKIP?utm_source=coverr&utm_medium=referral&utm_content=creditShareLink">Coverr.co</a></h2>
+          </div> 
 
-    'Video'
-    1)I got this free video on Coverr.co https://coverr.co/videos/igloo-tents-near-the-mountains-lSf2x8UKIP?utm_source=coverr&utm_medium=referral&utm_content=creditShareLink
-
-
-    'Popup'
-    1)Photo by <a href="https://unsplash.com/@sebastian_unrau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Unrau</a> on <a href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    2) Photo by <a href="https://unsplash.com/@twinckels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Winckels</a> on <a href="https://unsplash.com/s/photos/sea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-   -->
+          <a href="#hdr" class="close-pos">&times;</a>
+      </div>
+   </div>
     </body>
 </html>
